@@ -17,7 +17,8 @@ node dfs(graph g, node start, node search) {
         if (equals(cur, search)) {
             return cur;
         } else {
-            for (node child in children(cur)) {
+            for (node child in children(cur)) 
+            {
                 push(&s, child);
             }
         }
